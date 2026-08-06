@@ -135,7 +135,7 @@ ejemplos = [
 
 demo = gr.ChatInterface (
     fn=responder,
-    title="Katherine IA - Sistema de Experto en Marketing",
+    title="Katherine IA - Sistema de Multi Agentes Experto en Marketing Inteligente",
     description=(
         "Katherine IA, Coordinadora General de Marketing Inteligente. "
         "Desarrollada por el Prof. Víctor Campos (CI V-8270225)."
