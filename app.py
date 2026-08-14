@@ -7,7 +7,7 @@ from cerebras.cloud.sdk import Cerebras
 client = Cerebras(api_key=os.getenv("CEREBRAS_API_KEY"))
 
 # Modelo optimizado de Cerebras
-MODELO_ACTIVO = "gpt-oss-120b"
+MODELO_ACTIVO = "gema-4-31b"
 
 SYSTEM_PROMPT = """
 # PROMPT MAESTRO: SISTEMA MULTI-AGENTE DE OPERACIONES, MARKETING Y ESTRATEGIA MULTIDISCIPLINARIA
